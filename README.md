@@ -15,10 +15,10 @@
 ## 진행 사항
 
 - 12/02
-  - learning rate : 1e-3
-  - epoch = 50
-  - param : set 1
-  - optimizer : Adam
-  - scheduler : None
+  * learning rate : 1e-3
+  * epoch = 5
+  * param : set 1
+  * optimizer : Adam
+  * scheduler : None
  
-  - result : {Avg Loss: 70.1300, Avg PSNR: 29.8700, Avg SSIM: 0.9269}, {Val Loss: 71.0571, Val PSNR: 28.9429, Val SSIM: 0.9219}
+  * result : {Avg Loss: 70.1300, Avg PSNR: 29.8700, Avg SSIM: 0.9269}, {Val Loss: 71.0571, Val PSNR: 28.9429, Val SSIM: 0.9219}
