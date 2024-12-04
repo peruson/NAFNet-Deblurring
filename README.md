@@ -20,7 +20,8 @@
   * param : set 1
   * optimizer : Adam
   * scheduler : None
-  * result : {Avg Loss: 70.1300, Avg PSNR: 29.8700, Avg SSIM: 0.9269}, {Val Loss: 71.0571, Val PSNR: 28.9429, Val SSIM: 0.9219}
+  * result : {Avg Loss: 70.1300, Avg PSNR: 29.8700, Avg SSIM: 0.9269}, 
+             {Val Loss: 71.0571, Val PSNR: 28.9429, Val SSIM: 0.9219}
  
 - 12/04
   * Validation, Test dataset split 작업 진행 -> Train : Valid : Test = 2103 : 555 : 556
@@ -29,4 +30,6 @@
   * param : set 1
   * optimizer : Adam
   * scheduler : None
-  * result : {Avg Loss: 70.0215, Avg PSNR: 29.9785, Avg SSIM: 0.9274}, {70.9691, Val PSNR: 29.0309, Val SSIM: 0.9228}
+  * result : {Avg Loss: 70.0215, Avg PSNR: 29.9785, Avg SSIM: 0.9274}, 
+             {Val Loss: 70.9691, Val PSNR: 29.0309, Val SSIM: 0.9228},
+             {Test Loss: 70.9692, Test PSNR: 29.0308, Test SSIM: 0.9212}
