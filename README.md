@@ -2,7 +2,29 @@
 - NAFNet을 이용한 Deblurring 작업 파이프라인 구축 및 튜닝
 * Dataset
     * GoPro Dataset
-    * Train Dataset : Blur, Sharp 각각 2103 장 / Test Dataset : Blur, Sharp 각각 1111 장
+       - 링크 : https://www.kaggle.com/datasets/jishnuparayilshibu/a-curated-list-of-image-deblurring-datasets/data
+       - 데이터 구조
+         ```
+         -  DBlur
+             ㄴCelebA
+             ㄴGopro
+               ㄴtrain
+                 ㄴblur (2103장)
+                 ㄴsharp (2103장)
+               ㄴtest
+                 ㄴblur (1111장)
+                 ㄴsharp (1111장)
+             ㄴHIDE
+             ㄴHelen
+             ㄴRealBlur_J
+             ㄴRealBlur_R
+             ㄴTextOCR
+             ㄴWider-Face
+         ```
+    - 데이터 중 Gopro의 train, test 사용 (test는 validataion : test 절반씩 분할)
+      - train      : blur:2103 / sharp:2103
+      - validation : blur:556 / sharp:556
+      - test       : blur:555 / sharp:555
     * image shape : 1280 x 720
 * Default Configs
     * device : Cuda (GPU T4 x 2)
