@@ -152,10 +152,10 @@
          - Optimizer 변경 : Adam -> AdamW (Weight decay (== L2 Regularization) 적용)
          - Learning Rate Scheduler(CosineAnnealingLR) 적용 -> 초기에는 높은 lr값으로 빠른 학습 후 점차적으로 학습률을 줄여가며 안정적인 학습 진행 -> 과적합 방지
   - 실험 결과
-  ![Uploading image.png…](){: width="100" height="100"}
-  
   ```
-  
+![image](https://github.com/user-attachments/assets/25ff6c1f-fcaf-416a-93ce-1b8d10d53998){: width="100" height="100"},
+![image](https://github.com/user-attachments/assets/42825487-1c74-454b-a942-1ebcadaebe06){: width="100" height="100"} 
+
 ## 진행 예정 사항
 ```
  1. Dropout (0.5) 적용
