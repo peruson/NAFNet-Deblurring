@@ -157,7 +157,7 @@
   - 추가 예정 사항
      - 100 epoch 추가 학습 진행
   ```
-**Test 3 Results**
+**# Test 3 Results**
 
 <img src = "https://github.com/user-attachments/assets/25ff6c1f-fcaf-416a-93ce-1b8d10d53998" width="250" height="250">
 <img src = "https://github.com/user-attachments/assets/53ef68ab-47f4-4b83-9151-e1f65bec5667" width="250" height="250">
