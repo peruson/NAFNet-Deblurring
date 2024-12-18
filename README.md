@@ -141,6 +141,19 @@
     - Transforms : Center Crop -> Random Crop (256 x 256) & Increase Flip Probablity (0.5)
     - Optimizer 변경 : Adam -> AdamW (beta 1 = 0.9, beta 2 = 0.9, weight decay = 0)
     - L2 규제 추가
+
+  # Test 3
+  - 변경점
+     - Data Transforms
+         - Resize(256x256) -> Center Crop(256x256) -> Random Crop(256x256)
+         - Horizontal, Vertical Flip 확률 0.5로 증가
+     - Overfitting 방지
+         - Dropout 확률 0.5로 증가
+         - Optimizer 변경 : Adam -> AdamW (Weight decay (== L2 Regularization) 적용)
+         - Learning Rate Scheduler(CosineAnnealingLR) 적용 -> 초기에는 높은 lr값으로 빠른 학습 후 점차적으로 학습률을 줄여가며 안정적인 학습 진행 -> 과적합 방지
+  - 실험 결과
+  ![Uploading image.png…](){: width="100" height="100"}
+  
   ```
   
 ## 진행 예정 사항
