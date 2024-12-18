@@ -163,8 +163,8 @@
 
 ## 진행 예정 사항
 ```
- 1. Dropout (0.5) 적용
- 2. Transform : Center Crop -> Random Crop (256 x 256), Horizontal Filp (0.5), Vertical Flip (0.5)
- 3. Scheduler (stepLR, cosineAnnealingLR 등) 적용 후 성능 비교
- 4. SimpleGate 구조 변경 -> SwiGLU, GeGLU, ReGLU
+ 1. 약 500 epoch까지 학습 진행
+ 2. SimpleGate 구조 변경 -> SwiGLU, GeGLU, ReGLU
+ 3. Input Image Concatenate 작업 진행 (Fast-Fourier Transform)
+ 4. NAF Block, NAFNet 구조 변경 (AdaRevD, CGNet..)
 ```
