@@ -32,13 +32,13 @@
     * image_resize : 256x256
     * num_workers : 4
     * batch_size : 16 (Block num = 36 -> parameter 증가로 인해 Cuda Out Of Memory error 발생 -> Batch_size = 8로 감소)
-    * epoch : 50 -> 100
+    * epoch : 50 -> 100 -> 500
   ```
 * Transforms
   ```
-    * resize : 256x256 (bicubic interpolation) -> center crop
-    * random horizontal flip (0.2)
-    * random vertical filp (0.2)
+    * resize : 256x256 (bicubic interpolation) -> center crop -> random crop
+    * random horizontal flip (0.2) -> (0.5)
+    * random vertical filp (0.2) -> (0.5)
   ```
 ## 진행 사항
 - 12/02
